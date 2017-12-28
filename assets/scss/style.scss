@@ -1,0 +1,39 @@
+body{
+	margin:0;
+	height:0;
+    font-family:montMedium;
+    font-size: 14px;
+    background-color:#fff;
+    color:#000000;
+
+}
+@font-face{
+    font-family:montRegular;
+    src: url('../../font/Montserrat/Montserrat-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:montLight;
+    src: url('../../font/Montserrat/Montserrat-ExtraLight.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:montMedium;
+    src: url('../../font/Montserrat/Montserrat-Medium.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:montSemiBold;
+    src: url('../../font/Montserrat/Montserrat-SemiBold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@import 'stylesheets/header.scss';
+@import 'stylesheets/events.scss';  
+@import 'stylesheets/select.scss';  
+@import 'stylesheets/footer.scss';  

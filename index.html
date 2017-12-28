@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+	<title>Events.az</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="font/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<header>
+	<div class="lang-part">
+		<div class="container">
+				<div class="pull-left all-event">
+					<a href="#">Bütün Tədbirlər</a>
+				</div>
+				<div class="pull-right language">
+					<ul class="text-right">
+						<li><a href="#">EN</a>
+							<ul class="sub-lang">
+								<li><a href="#">AZ</a></li>
+								<li><a href="#">RU</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<div class="search-part">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 brand-logo">
+					<a href="#"><img src="image/logo/logo1.png"></a>
+				</div>
+				<div class="col-md-7 search-bar">
+					<form class="search-container">
+					   	<input type="text" id="search-bar" placeholder="Axtarış üçün simvol əlavə edin və gözləyin">
+					    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+					 </form>
+				</div>
+				<div class="col-md-3 acc-user text-right">
+					<a href="#" class="compas"><i class="fa fa-compass" aria-hidden="true"></i></a>
+					<a href="#" class="bag"><i class="fa fa-suitcase" aria-hidden="true"></i></a>
+					<a href="#" class="user"><i class="fa fa-user" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slider-part">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 sli-desc"><a href="#">
+					<img src="image/imgsite/miri.png">
+					<h1>Miri Yusifin Solo Konserti</h1></a>
+				</div>
+				<div class="col-md-2 sli-desc"><a href="#">
+					<img src="image/imgsite/skrip.png">
+					<h1>Skriptonit Solo Konserti</h1></a>
+				</div>
+				<div class="col-md-2 sli-desc"><a href="#">
+					<img src="image/imgsite/miri.png">
+					<h1>Eminin Solo Konserti</h1></a>
+				</div>
+				<div class="col-md-2 sli-desc"><a href="#">
+					<img src="image/imgsite/skrip.png">
+					<h1>Miyagi & END Konsert</h1></a>
+				</div>
+				<div class="col-md-2 sli-desc"><a href="#">
+					<img src="image/imgsite/miri.png">
+					<h1>Miri Yusifin Solo Konserti</h1></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-part">
+		<nav class="navbar navbar-transparents">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Konsert</a></li>
+		        <li class="dropdown">
+		          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Konfrans <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Page 1-1</a></li>
+		            <li><a href="#">Page 1-2</a></li>
+		            <li><a href="#">Page 1-3</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#">Seminar</a></li>
+		        <li><a href="#">Festival</a></li>
+		        <li><a href="#">Təqdimat</a></li>
+		        <li><a href="#">Yarışma</a></li>
+		        <li><a href="#">İdman</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</div>
+</header>
+<section id="select-brand">
+	<div class="select-part">
+		<div class="container">
+			<div class="select-box">
+				<div class="col-md-2 select-par">
+					<p>TARİX VƏ KATEQORİYA ÜZRƏ AXTARIŞ ET</p>
+				</div>
+				<div class="col-md-9 select-tab text-center">
+					<div class="col-md-3">
+						<i class="fa fa-calendar" aria-hidden="true"></i>
+						<div class="select-dropdown">
+							<input type="text" value="Başlama Tarixi" readonly/>
+							
+							<i class="material-icons">keyboard_arrow_down</i>
+							<ul>
+								<li>Weekly</li>
+								<li>Evey two weeks</li>
+								<li>Monthly</li>
+								<li>Never</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<i class="fa fa-clock-o" aria-hidden="true"></i>
+						<div class="select-dropdown">
+							<input type="text" value="Bitmə Tarixi" readonly/>
+							
+							<i class="material-icons">keyboard_arrow_down</i>
+							<ul>
+								<li>Weekly</li>
+								<li>Evey two weeks</li>
+								<li>Monthly</li>
+								<li>Never</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<i class="fa fa-tasks" aria-hidden="true"></i>
+						<div class="select-dropdown">
+							<input type="text" value="Kateqoriya" readonly/>
+							
+							<i class="material-icons">keyboard_arrow_down</i>
+							<ul>
+								<li>Weekly</li>
+								<li>Evey two weeks</li>
+								<li>Monthly</li>
+								<li>Never</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<i class="fa fa-usd" aria-hidden="true"></i>
+						<div class="select-dropdown">
+						<input type="text" value="Ödənişli" readonly/>
+						
+						<i class="material-icons">keyboard_arrow_down</i>
+						<ul>
+							<li>Weekly</li>
+							<li>Evey two weeks</li>
+							<li>Monthly</li>
+							<li>Never</li>
+						</ul>
+					</div>
+					</div>	
+				</div>
+				<div class="col-md-1 select-search"><i class="fa fa-search fa-2x" aria-hidden="true"></i></div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="events">
+		<div class="event-category">
+			<div class="container">
+				<div class="last-event pull-left">
+					<button type="button" class="btn btn-primary">Ən Son Əlavə Olunanlar</button>
+				</div>
+				<div class="all-event pull-right">
+					<button type="button" class="btn btn-danger"><i class="fa fa-list" aria-hidden="true"></i>Bütün Tədbirlər</button>
+				</div>
+			</div>
+			<div class="container e-tab">
+				<div class="row">
+					<div class="col-md-2">
+					<div class="e-desc">
+						<a href="#">
+							<img src="image/imgsite/celsi.jpg">
+							<h4>Çelsi-Qarabağ oyunu</h4>
+							<p>22 NOYABR 2017, ÇƏRŞƏNB<br><span>BAKI OLİMPİYA STADİONU</span></p>
+							<span class="time">10:00</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="e-desc">
+						<a href="#">
+							<img src="image/imgsite/celsi.jpg">
+							<h4>Çelsi-Qarabağ oyunu</h4>
+							<p>22 NOYABR 2017, ÇƏRŞƏNB<br><span>BAKI OLİMPİYA STADİONU</span></p>
+							<span class="time">10:00</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="e-desc">
+						<a href="#">
+							<img src="image/imgsite/celsi.jpg">
+							<h4>Çelsi-Qarabağ oyunu</h4>
+							<p>22 NOYABR 2017, ÇƏRŞƏNB<br><span>BAKI OLİMPİYA STADİONU</span></p>
+							<span class="time">10:00</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="e-desc">
+						<a href="#">
+							<img src="image/imgsite/celsi.jpg">
+							<h4>Çelsi-Qarabağ oyunu</h4>
+							<p>22 NOYABR 2017, ÇƏRŞƏNB<br><span>BAKI OLİMPİYA STADİONU</span></p>
+							<span class="time">10:00</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="e-desc">
+						<a href="#">
+							<img src="image/imgsite/celsi.jpg">
+							<h4>Çelsi-Qarabağ oyunu</h4>
+							<p>22 NOYABR 2017, ÇƏRŞƏNB<br><span>BAKI OLİMPİYA STADİONU</span></p>
+							<span class="time">10:00</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="e-desc">
+						<a href="#">
+							<img src="image/imgsite/celsi.jpg">
+							<h4>Çelsi-Qarabağ oyunu</h4>
+							<p>22 NOYABR 2017, ÇƏRŞƏNB<br><span>BAKI OLİMPİYA STADİONU</span></p>
+							<span class="time">10:00</span>
+						</a>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="coming-events">
+			<button type="button" class="btn btn-danger">Yaxınlaşan Tədbirlər</button>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+				<a href="#">
+					<div class="e-scale">
+					<div class="front"><h5>09</h5><br><span>Noyabr</span></div>
+					<div class="back"></div>
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+<script src="js/main.js"></script>
+</html>
+
+

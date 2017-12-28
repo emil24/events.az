@@ -1,0 +1,144 @@
+header {
+  width: 100%;
+  background-image: url(../../image/background.png);
+  height: 830px;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0 auto; }
+
+.lang-part {
+  z-index: 1;
+  width: 100%;
+  padding: 54px 0px; }
+  .lang-part .all-event a {
+    color: white; }
+  .lang-part .all-event a:hover {
+    text-decoration: none; }
+  .lang-part .language {
+    right: 10px; }
+    .lang-part .language ul li a {
+      color: #fff;
+      font-size: 19px;
+      text-decoration: none; }
+    .lang-part .language ul li .sub-lang {
+      display: none;
+      padding: 5px 0px; }
+      .lang-part .language ul li .sub-lang li {
+        padding: 5px 0px; }
+        .lang-part .language ul li .sub-lang li a:hover {
+          text-decoration: underline; }
+    .lang-part .language ul li:hover .sub-lang {
+      display: none; }
+
+.search-part {
+  width: 100%; }
+  .search-part .search-bar .search-container {
+    width: 490px;
+    display: block;
+    margin-top: 5px;
+    float: right;
+    margin-right: 15px; }
+  .search-part .search-bar input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.13); }
+    .search-part .search-bar input#search-bar:focus {
+      border: none;
+      transition: 0.35s ease;
+      color: #fff; }
+      .search-part .search-bar input#search-bar:focus::-webkit-input-placeholder {
+        transition: opacity 0.45s ease;
+        opacity: 0; }
+      .search-part .search-bar input#search-bar:focus::-moz-placeholder {
+        transition: opacity 0.45s ease;
+        opacity: 0; }
+      .search-part .search-bar input#search-bar:focus:-ms-placeholder {
+        transition: opacity 0.45s ease;
+        opacity: 0; }
+  .search-part .search-bar ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+    font-size: 14px;
+    font-family: montLight; }
+  .search-part .search-bar ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+    font-size: 14px;
+    font-family: montLight; }
+  .search-part .search-bar :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    font-size: 14px;
+    font-family: montLight; }
+  .search-part .search-bar :-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+    font-size: 14px;
+    font-family: montLight; }
+  .search-part .search-bar i {
+    position: relative;
+    float: right;
+    top: -31px;
+    right: 23px;
+    color: #fff;
+    font-size: 20px; }
+
+.acc-user {
+  padding: 15px; }
+  .acc-user i {
+    color: #fff;
+    font-size: 25px;
+    padding-left: 10px; }
+
+.slider-part {
+  width: 100%; }
+  .slider-part .sli-desc {
+    margin: 35px 19px;
+    padding: 0px; }
+    .slider-part .sli-desc img {
+      width: 100%; }
+    .slider-part .sli-desc h1 {
+      color: #fff;
+      padding: 10px 14px;
+      font-family: montSemiBold;
+      font-size: 13px; }
+    .slider-part .sli-desc a {
+      text-decoration: none; }
+
+.menu-part {
+  width: 100%; }
+  .menu-part .navbar-transparents {
+    background: #00000069; }
+    .menu-part .navbar-transparents .navbar-nav {
+      width: 100%;
+      text-align: center; }
+    .menu-part .navbar-transparents .navbar-nav > li {
+      float: none;
+      display: inline-block; }
+    .menu-part .navbar-transparents .nav > li > a:hover, .menu-part .navbar-transparents .nav > li > a:focus {
+      text-decoration: none;
+      background-color: #00000094;
+      color: #fff; }
+    .menu-part .navbar-transparents .navbar-nav > li > a {
+      color: #fff;
+      font-family: montMedium;
+      padding-left: 40px;
+      padding-right: 40px; }
+    .menu-part .navbar-transparents .dropdown-menu {
+      width: 100%;
+      min-width: 100%;
+      background-color: #00000087; }
+      .menu-part .navbar-transparents .dropdown-menu a {
+        color: #fff; }
+    .menu-part .navbar-transparents .dropdown-menu > li > a:hover, .menu-part .navbar-transparents .dropdown-menu > li > a:focus {
+      text-decoration: none;
+      background-color: #8f8484; }
+
+/*# sourceMappingURL=header.css.map */
