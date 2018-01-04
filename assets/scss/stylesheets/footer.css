@@ -2,18 +2,29 @@ footer {
   background: url("../../image/background.png");
   width: 100%;
   background-size: 100% 100%;
-  background-position: center; }
+  background-position: center;
+  position: absolute; }
   footer .btn-danger {
     background-color: #c6207c;
     border: none; }
+    footer .btn-danger:hover {
+      background-color: #c6207c;
+      border-color: #c6207c; }
+    footer .btn-danger:active {
+      background-color: #c6207c !important;
+      border-color: #c6207c !important; }
+    footer .btn-danger:focus {
+      background-color: #c6207c !important;
+      border-color: #c6207c !important; }
   footer .btn {
     width: 210px;
     padding: 10px 12px;
     border-radius: 30px; }
   footer .coming-events {
     margin: 40px 0px; }
+  footer .date-events {
+    padding: 10px 42px; }
   footer .e-scale {
-    width: 110;
     height: 110px;
     border-radius: 20px; }
     footer .e-scale .front {
@@ -32,6 +43,8 @@ footer {
         top: 65%; }
     footer .e-scale .back {
       background: url("../..//image/skripto.png");
+      background-position: center;
+      background-size: 100%;
       width: 110px;
       height: 110px;
       border-radius: 20px;
@@ -45,5 +58,46 @@ footer {
       footer a:hover .back {
         display: block;
         transform: scale(1.2); }
+  footer .footer-part {
+    margin-top: 20px;
+    background-color: #241327;
+    padding: 40px 0px 20px 0px; }
+    footer .footer-part .e-first span {
+      font-size: 22px;
+      color: #fff;
+      font-family: montLight;
+      font-style: italic; }
+    footer .footer-part .e-second span {
+      color: #fff; }
+    footer .footer-part .social-az {
+      padding: 10px 0px; }
+      footer .footer-part .social-az span {
+        color: #fff;
+        font-family: montLight;
+        font-style: italic;
+        line-height: 1.3; }
+    footer .footer-part .social-icon {
+      padding: 10px 0px; }
+      footer .footer-part .social-icon a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 0px 0px 15px; }
+    footer .footer-part .e-logo {
+      padding: 20px 0px; }
+    footer .footer-part .e-brand {
+      padding: 20px 0px; }
+      footer .footer-part .e-brand img {
+        padding: 0px 0px 0px 25px; }
+  footer .footer-end {
+    padding: 10px 0px; }
+    footer .footer-end .copy {
+      color: #fff;
+      font-size: 12px; }
+    footer .footer-end .footer-menu ul li {
+      list-style-type: none;
+      float: left;
+      padding: 0px 5px; }
+    footer .footer-end .footer-menu ul a {
+      color: #fff; }
 
 /*# sourceMappingURL=footer.css.map */
